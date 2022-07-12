@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.info-p{
+  font-size: 24px;
+  line-height: 50px;
+}
+
+#content{
+  margin: auto;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/mountain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-area, .portfolio-area, .sercvices-area, .contact-area{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+
+}
+
+.info{
+  width: 65%;
+  height: 80%;
+}
+
+.portfolio-area, .contact-area {
+  background-color: gainsboro;
+}
