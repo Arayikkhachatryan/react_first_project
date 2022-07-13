@@ -1,5 +1,4 @@
 import './footerStyle.css'
-// import fb from '../../icons/fbLogo.png'
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { AiOutlineYoutube } from 'react-icons/ai'

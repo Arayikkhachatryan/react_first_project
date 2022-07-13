@@ -10,12 +10,14 @@
   margin: 15px;
   color: #fff;
   text-decoration: none;
-  transition: color .8s ease-in-out, box-shadow .3s ease-in-out;
+  transition: transform .8s ease-in-out, box-shadow .3s ease-in-out;
+  padding: 5px;
 }
 
 #navigation a:hover {
   color: black;
   box-shadow: inset 200px 0 0 0 #ffff;;
+  transform: translate(0, -5px);
 }
 
 #logo a{
