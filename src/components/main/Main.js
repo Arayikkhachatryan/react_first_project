@@ -1,9 +1,12 @@
 import './mainStyle.css'
+import banner from '../../img/mountain.jpg'
 
 function Main() {
     return (
         <div id="content">
-            <div className="banner" id="home"></div>
+            <div className="banner" id="home">
+                <img src={banner} className="img"/>
+            </div>
             <div className="about-area" id="about">
                 <div className="info">
                     <h1>About</h1>
